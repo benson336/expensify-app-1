@@ -14,7 +14,7 @@ import './styles/styles.scss';
 const store = configureStore();
 
 
-store.dispatch(addExpense({description: 'house', amount: 4500, createdAt: 10300}));
+store.dispatch(addExpense({description: 'house', amount: 5500, createdAt: 10300}));
 store.dispatch(addExpense({description: 'Car', amount: 6000, createdAt: 2000}));
 store.dispatch(addExpense({description: 'coffee', amount: 500, createdAt: 3000}));
 
